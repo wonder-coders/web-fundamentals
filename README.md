@@ -3,9 +3,13 @@
 ## ¿Qué necesitas?
 #### Un editor de texto, acá algunas sugerencias:
 * Atom, plugins recomendados: ```color-picker, auto-close-html, atom-html-preview```
-* Sublime Text: ```Cobalt2 theme, Color Highlighter package```
+* Sublime Text: ```Cobalt2 theme, Color Highlighter package```    
+
 #### Un navegador
-* En este caso usaremos Google Chrome
+* En este caso usaremos Google Chrome  
+
+#### Una cuenta en Github
+* Crea una [acá](https://github.com/) y dale ```fork``` a este repo.
 
 ## Summary
 #### Google Developer Group Women
