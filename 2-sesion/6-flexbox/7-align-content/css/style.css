@@ -1,9 +1,9 @@
 .box {
+	width: 33.333%;
 	color: white;
 	font-size: 100px;
 	text-align: center;
 	text-shadow: 4px 4px 0 rgba(0,0,0,0.1);
-	padding: 20px;
 }
 
 .box1 {
@@ -38,17 +38,15 @@
 }
 
 .container {
-	/*Definir un elemento como contenedor flexible*/
+	/*Align Content aprovechar espacio sobrante de top a bottom*/
 	display: -webkit-flex;
 	display: flex;
-	border: 10px solid red;
-	min-height: 100vh;
-	flex-direction: row;
-	/*flex-wrap: nowrap;*/
-	/*flex-wrap: wrap;*/
-	/*flex-wrap: wrap-reverse;*/
+	flex-wrap: wrap;
+	height: 100vh;
+	align-content: space-around;
+	/*justify-content: flex-start;	 alinea al incio*/
+  /*justify-content: flex-end;	 alinea al final*/
+  /*justify-content: center; */
+  /*justify-content: space-between;	 genera un espacio entre los elementos*/
+  /*align-items: stretch; 	toman el tamaño de su padre */
 }
-
-/*.box {
-	width: 300px;
-}*/

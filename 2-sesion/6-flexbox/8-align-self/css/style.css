@@ -1,0 +1,60 @@
+.box {
+	color: white;
+	font-size: 100px;
+	text-align: center;
+	text-shadow: 4px 4px 0 rgba(0,0,0,0.1);
+}
+
+.box1 {
+	padding: 20px;
+	background-color: #EF5350;
+}
+.box2 {
+	background-color: #E91E63;
+}
+.box3 {
+	padding: 50px;
+	background-color: #9C27B0;
+}
+.box4 {
+	padding: 120px;
+	background-color: #673AB7;
+}
+.box5 {
+	background-color: #3F51B5;
+}
+.box6 {
+	padding: 40px;
+	background-color: #2196F3;
+}
+.box7 {
+	padding: 20px;
+	background-color: #03A9F4;
+}
+.box8 {
+	background-color: #00BCD4;
+}
+.box9 {
+	padding: 60px;
+	background-color: #009688;
+}
+.box10 {
+	background-color: #607D8B;
+}
+
+.container {
+	/*Align Self propiedades independientes de los hijos*/
+	display: -webkit-flex;
+	display: flex;
+	flex-direction: row; /* Try what's happen if you change the value from row to column */
+	height: 100vh;
+	align-items: flex-start;
+}
+
+.box8 {
+	align-self: flex-end; /* alinea el elemento al final*/
+	/*align-items: flex-start; 	alinea el elemento al inicio*/
+	/*align-items: baseline; 	alinea elemento sobre el eje de los demás*/
+	/*align-items: center; 	centra elemento */
+	/*align-items: stretch; 	toma el tamaño de su padre */
+}

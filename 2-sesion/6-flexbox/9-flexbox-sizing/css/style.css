@@ -1,0 +1,50 @@
+.box {
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	text-shadow: 4px 4px 0 rgba(0,0,0,0.1);
+	padding: 5px;
+}
+
+.box1 {
+	background-color: #EF5350;
+}
+.box2 {
+	background-color: #E91E63;
+}
+.box3 {
+	background-color: #9C27B0;
+}
+.box4 {
+	background-color: #673AB7;
+}
+.box5 {
+	background-color: #3F51B5;
+}
+.box6 {
+	background-color: #2196F3;
+}
+.box7 {
+	background-color: #03A9F4;
+}
+.box8 {
+	background-color: #00BCD4;
+}
+.box9 {
+	background-color: #009688;
+}
+.box10 {
+	background-color: #607D8B;
+}
+
+.container {
+	/*Flex property, proporciones*/
+	display: -webkit-flex;
+	display: flex;
+}
+.box {
+	flex: 1;
+}
+.box1 {
+	flex: 2;
+}

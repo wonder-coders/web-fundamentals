@@ -1,0 +1,11 @@
+.demo-card-square.mdl-card {
+  width: 320px;
+  height: 320px;
+}
+
+/* Block, Element */
+.demo-card-square > .mdl-card__title {
+  color: #fff;
+  background:
+    url('../assets/marshmallow.png') bottom right 15% no-repeat #a4c639;
+}

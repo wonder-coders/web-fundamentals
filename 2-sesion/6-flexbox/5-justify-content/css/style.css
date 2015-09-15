@@ -38,6 +38,13 @@
 }
 
 .container {
-	/*Definir un elemento como contenedor flexible*/
-	/*display: -webkit-flex;*/
+	/*Justify Content aprovechar espacio sobrante de izq a derecha*/*/
+	display: -webkit-flex;
+	display: flex;
+	flex-direction: row; /* Try what's happen if you change the value from row to column */
+	justify-content: center;
+  /*justify-content: flex-start;	 alinea al incio*/
+  /*justify-content: flex-end;	 alinea al final*/
+  /*justify-content: space-around; 	genera espacio alrededor de los elementos*/
+  /*justify-content: space-between;	 genera un espacio entre los elementos*/
 }

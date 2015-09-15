@@ -7,30 +7,36 @@
 }
 
 .box1 {
+	font-size: 30px;
 	background-color: #EF5350;
 }
 .box2 {
 	background-color: #E91E63;
 }
 .box3 {
+	font-size: 50px;
 	background-color: #9C27B0;
 }
 .box4 {
+	font-size: 10px;
 	background-color: #673AB7;
 }
 .box5 {
 	background-color: #3F51B5;
 }
 .box6 {
+	font-size: 15px;
 	background-color: #2196F3;
 }
 .box7 {
+	font-size: 150px;
 	background-color: #03A9F4;
 }
 .box8 {
 	background-color: #00BCD4;
 }
 .box9 {
+	font-size: 60px;
 	background-color: #009688;
 }
 .box10 {
@@ -38,13 +44,14 @@
 }
 
 .container {
-	/*Definir un elemento como contenedor flexible*/
+	/*Align Items*/
 	display: -webkit-flex;
 	display: flex;
+	flex-direction: row; /* Try what's happen if you change the value from row to column */
 	height: 100vh;
-	border: 10px solid red;
-	/*flex-direction: row;*/
-	/*flex-direction: row-reverse;*/
-	/*flex-direction: column;*/
-	/*flex-direction: column-reverse;*/
+	align-items: baseline; /* alinea los elementos sobre un mismo eje*/
+	/*align-items: flex-start; 	alinea los elementos al inicio*/
+  /*align-items: flex-end; 	alinea elementos al final*/
+  /*align-items: center; 	centra elementos */
+  /*align-items: stretch; 	toman el tamaño de su padre */
 }

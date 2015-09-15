@@ -1,0 +1,47 @@
+/* Esto es un comentario en CSS */
+
+/* Selectores */
+/* Selector universal afecta a todo */
+*{
+  font-family: Roboto, helvetica, sans-serif;
+  background-color: #E0E0E0;
+}
+
+/* Selector de elemento afecta a una etiqueta de ese nombre */
+h1 {
+  color: red;
+}
+
+img {
+  border-radius: 50%;
+}
+/*Podemos heredar propiedades*/
+  .main-header__logo {
+    width: 100px;
+    height: 100px;
+  }
+
+/* Selector de clase, es posible reutilizar*/
+.main-header__title {
+  color: #3F51B5;
+  font-family: Lobster;
+}
+
+.article-header {
+  background-color: #BDBDBD;
+}
+
+/* Selector de id, sólo podemos tener uno por página (no reutilizable) */
+#submit {
+
+}
+
+/* Box Model */
+.box {
+  width: 300px;
+  height: 200px;
+  padding: 50px;
+  border: 16px solid #FE2E2E;
+  margin: 150px;
+  background-color: #3F51B5;
+}
