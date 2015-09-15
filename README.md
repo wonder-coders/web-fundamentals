@@ -41,5 +41,5 @@ Nuestra página necesita un lugar para vivir, antes de aprender a hacer deploy e
 * [Código](2-sesion)
 * [Resources](https://github.com/wonder-coders/web-fundamentals/issues/1)
 * Con base en los temas de flexbox ya pueden crear una replica de Instagram
-    * [Código base](sesion-2/instajam)
+    * [Código base](sesion-2/6-flexbox/instajam)
     * [Instagram Google](https://instagram.com/google/)
