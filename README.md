@@ -3,7 +3,7 @@
 ## ¿Qué necesitas?
 #### Un editor de texto, acá algunas sugerencias:
 * Atom, plugins recomendados: ```color-picker, auto-close-html, atom-html-preview```
-* Sublime Text: ```Cobalt2 theme, Color Highlighter package```    
+* Sublime Text: ```Cobalt2 theme, Color Highlighter package```
 
 #### Un navegador
 * En este caso usaremos Google Chrome  
@@ -33,4 +33,11 @@ Nuestra página necesita un lugar para vivir, antes de aprender a hacer deploy e
 #### Primera
 * [Slides & Ebooks](https://drive.google.com/folderview?id=0B7hDbxwZ4wlqfm1vUl93TW1ZYWkxTTc3M1JqOGRrZzVZSnpudGlEd0ZtVnFHX3FXcUV4ZWc&usp=sharing)
 * [Código](1-sesion)
+* [Resources](https://github.com/wonder-coders/web-fundamentals/issues/1)  
+#### Segunda  
+* [Slides](https://drive.google.com/folderview?id=0B7hDbxwZ4wlqfm1vUl93TW1ZYWkxTTc3M1JqOGRrZzVZSnpudGlEd0ZtVnFHX3FXcUV4ZWc&usp=sharing)
+* [Código](2-sesion)
 * [Resources](https://github.com/wonder-coders/web-fundamentals/issues/1)
+* Con base en los temas de flexbox ya pueden crear una replica de Instagram
+    * [Código base](sesion-2/10-instagram)
+    * [Instagram Google](https://instagram.com/google/)
