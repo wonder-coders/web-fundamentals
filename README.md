@@ -32,8 +32,10 @@ Nuestra página necesita un lugar para vivir, antes de aprender a hacer deploy e
 ## Sesiones
 #### Primera
 * [Slides & Ebooks](https://drive.google.com/folderview?id=0B7hDbxwZ4wlqfm1vUl93TW1ZYWkxTTc3M1JqOGRrZzVZSnpudGlEd0ZtVnFHX3FXcUV4ZWc&usp=sharing)
+* [Slides UX](http://slides.com/brendshdz/titulo-texto-3/fullscreen#/)
 * [Código](1-sesion)
-* [Resources](https://github.com/wonder-coders/web-fundamentals/issues/1)  
+* [Resources](https://github.com/wonder-coders/web-fundamentals/issues/1)
+
 #### Segunda  
 * [Slides](https://drive.google.com/folderview?id=0B7hDbxwZ4wlqfm1vUl93TW1ZYWkxTTc3M1JqOGRrZzVZSnpudGlEd0ZtVnFHX3FXcUV4ZWc&usp=sharing)
 * [Código](2-sesion)
