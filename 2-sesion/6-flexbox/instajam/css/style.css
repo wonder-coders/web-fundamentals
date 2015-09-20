@@ -1,9 +1,152 @@
-.shell {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-}
+@import url(http://fonts.googleapis.com/css?family=Cookie);
 
+@font-face {
+  font-family: "Bariol";
+  src: url("../assets/fonts/bariol_regular.woff2") format("woff2"),
+       url("../assets/fonts/bariol_regular.woff") format("woff"),
+       url("../assets/fonts/bariol_regular.ttf") format("truetype");
+}
+* {
+	font-family: Bariol;
+}
+.shell {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
 .shell-content {
-  flex: 1;
+	background-color: #FAFAFA;
+  	flex: 1;
+}
+/*Navigation Menu*/
+.shell__nav {
+	height: 78px;
+	border-bottom: 1px solid #edeeee;
+}
+.navigation__main {
+	height: 77px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.navigation__brand {
+	font-family: Cookie;
+  	font-size: 33px;
+}
+.navigation__search-box {
+  	width: 216px;
+  	border-radius: 15px;
+  	border: solid 1px #edeeee;
+  	font-size: 14px;
+  	height: 20px;
+  	outline: none;
+  	background: #fafafa;
+  	text-align: center;
+}
+.navigation__menu-link {
+  	font-size: 16px;
+  	font-weight: 600;
+}
+a, a:visited {
+    color: #125688;
+    text-decoration: none;
+}
+/*Profile Page*/
+.profile-page__header {
+	padding: 60px 0;
+	display: flex;
+}
+.profile-page__avatar-container {
+	padding-right: 100px;
+ 	display: flex;
+  	justify-content: flex-end;
+  	flex:1;
+}
+.profile-page__avatar {
+	border-radius: 50%;
+	border: 1px solid #cccfd0;
+	width: 150px;
+  	height: 150px;
+}
+.profile-page__author-info {
+	flex: 2;
+}
+.profile-page__username-follow,
+.profile-page__biography {
+	display: flex;
+	align-items: center;
+}
+.profile-page__username {
+  	font-size: 34px;
+  	color: #4b4f54;
+  	font-weight: 300;
+  	margin: 0px 15px 0px 0px;
+}
+.profile-page__follow {
+  	width: 90px;
+  	line-height: 29px;
+  	border: 1px solid #66bd2b;
+  	background-color: #66bd2b;
+  	text-transform: uppercase; /* ! */
+  	color: #fff;
+  	border-radius: 3px;
+  	font-size: 14px;
+  	font-weight: 600;
+}
+.profile-page__name {
+  	margin-right: 5px;
+}
+.profile-page__website-link {
+  	font-weight: 600;
+}
+.profile-page__statics {
+	display: flex;
+  	list-style: none;
+  	margin: 0;
+  	padding: 0;
+}
+.profile-page__static {
+  	font-size: 17px;
+  	margin-right: 40px;
+  	color: #4b4f54;
+}
+.static__count {
+  	color: #34373b;
+  	font-weight: 600;
+}
+/*Grid Layout*/
+.post-grid {
+	display: grid;
+	grid-template-columns: repeat(3, auto);
+  	grid-template-row: repeat(4, auto);
+  	justify-content: center;
+}
+.post-grid__item {
+	width: 292px;
+  	height: 292px;
+  	margin: 15px;
+	border: 1px solid #125688;
+}
+/*Footer*/
+.footer__main {
+	font-size: 12px;
+  	font-weight: 600;
+  	text-transform: uppercase;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.footer__nav-items {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	list-style: none;
+}
+.footer__nav-item {
+	margin-right: 16px;
+}
+.footer__copyright {
+	color: #4b4f54;
+	align-self: center;
 }

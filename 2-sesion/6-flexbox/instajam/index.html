@@ -2,15 +2,70 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Instajam</title>
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body class="shell">
-    <header>
-      <h1>Instajam</h1>
+    <header class="shell__nav">
+      <div class="navigation__main">
+        <div>
+          <a class="navigation__brand" href="#">Instajam</a>
+        </div>
+        <div>
+          <input class="navigation__search-box" type="text" placeholder="Buscar">
+        </div>
+        <div>
+          <a href="#" class="navigation__menu-link">Cerrar sesión</a>
+        </div>
+      </div>
     </header>
     <main class="shell-content">
+    <article class="profile-page">
+        <header class="profile-page__header">
+          <div class="profile-page__avatar-container">
+            <img class="profile-page__avatar" src="assets/images/ño.jpg">
+          </div>
+          <div class="profile-page__author-info">
+            <div class="profile-page__username-follow">
+              <h1 class="profile-page__username">ño</h1>
+              <input class="profile-page__follow" type="button" value="LE SIGUES">
+            </div>
+            <div class="profile-page__biography">
+              <h3 class="profile-page__name">Grumpy Cat</h3>
+              <a class="profile-page__website-link" href="#">grumpycat.github.io</a>
+            </div>
+            <ul class="profile-page__statics">
+              <li class="profile-page__static"><span class="static__count">156</span> publicaciones</li>
+              <li class="profile-page__static"><span class="static__count">266k</span> seguidores</li>
+              <li class="profile-page__static"><span class="static__count">22</span> seguidos</li>
+            </ul>
+          </div>
+        </header>
+        <div class="post-grid">
+          <div class="post-grid__item"></div>
+          <div class="post-grid__item"></div>
+          <div class="post-grid__item"></div>
+        </div>
+      </article>
     </main>
-    <footer>Footer</footer>
+    <footer class="shell__footer">
+      <div class="footer__main">
+        <nav class="footer__nav">
+          <ul class="footer__nav-items">
+            <li class="footer__nav-item"><a href="#">Información</a></li>
+            <li class="footer__nav-item"><a href="#">Asistencia</a></li>
+            <li class="footer__nav-item"><a href="#">Blog</a></li>
+            <li class="footer__nav-item"><a href="#">Prensa</a></li>
+            <li class="footer__nav-item"><a href="#">Api</a></li>
+            <li class="footer__nav-item"><a href="#">Empleo</a></li>
+            <li class="footer__nav-item"><a href="#">Privacidad</a></li>
+            <li class="footer__nav-item"><a href="#">Condiciones</a></li>
+            <li class="footer__nav-item"><a href="#">Idioma</a></li>
+          </ul>
+        </nav>
+      <span class="footer__copyright">© 2015 Instagram</span>
+      </div>
+    </footer>
   </body>
 </html>
