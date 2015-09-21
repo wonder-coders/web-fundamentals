@@ -1,0 +1,75 @@
+/*Navigation Menu*/
+.demo-layout-transparent {
+  background: url('../assets/images/cole.jpg') center / cover;
+}
+.demo-layout-transparent .mdl-layout__header,
+.demo-layout-transparent .mdl-layout__drawer-button {
+  /* This background is dark, so we set text to white. Use 87% black instead if
+     your background is light. */
+  color: white;
+}
+/*Content*/
+.page-content {
+  display: flex;
+  flex-direction: column;
+}
+.single-section {
+  height: 550px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.records-section {
+  height: 550px;
+  position: relative;
+  padding-top: 20px;
+  background-color: #FAFAFA;
+  display: flex;
+  flex-direction: column;
+}
+.about-section {
+  height: 550px;
+  position: relative;
+  background: url('../assets/images/diiv.jpg') center / cover;
+}
+.single-section__title {
+  color: white;
+	font-size: 100px;
+	text-align: center;
+	text-shadow: 4px 4px 0 rgba(0,0,0,0.1);
+  margin-bottom: 0;
+}
+.records-section__title-container {
+  color: #8a8a8a;
+  text-align: center;
+  padding-top: 20px;
+}
+.records-section__title {
+  font-size: 36px;
+  font-weight: 300;
+  margin-bottom: 0;
+}
+.mdl-grid {
+  align-items: center;
+}
+.demo-card-square.mdl-card {
+  width: 320px;
+  height: 320px;
+}
+.demo-card-square > .mdl-card__title {
+  color: #fff;
+  background:
+    url('../assets/images/oshin.png') bottom right 15% no-repeat #BDBDBD;
+}
+/*Footer*/
+.mdl-mini-footer {
+
+}
+/*Fab Button*/
+.play-button {
+  position: fixed;
+  z-index: 2;
+  bottom: 36px;
+  right: 36px;
+}

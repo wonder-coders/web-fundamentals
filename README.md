@@ -41,5 +41,20 @@ Nuestra página necesita un lugar para vivir, antes de aprender a hacer deploy e
 * [Código](2-sesion)
 * [Resources](https://github.com/wonder-coders/web-fundamentals/issues/1)
 * Con base en los temas de flexbox ya pueden crear una replica de Instagram
-    * [Código base](2-sesion/6-flexbox/instajam)
     * [Instagram Google](https://instagram.com/google/)
+
+#### Last
+* [Slides](https://drive.google.com/folderview?id=0B7hDbxwZ4wlqfm1vUl93TW1ZYWkxTTc3M1JqOGRrZzVZSnpudGlEd0ZtVnFHX3FXcUV4ZWc&usp=sharing)
+* [Código](3-sesion)
+* [Resources](https://github.com/wonder-coders/web-fundamentals/issues/1)
+* [Ejemplo de Material Design Lite](3-sesion/9-material-design-lite)
+
+## Proyectos
+#### Instajam
+Una vez que aprendes a construir layouts lo demás fluye solo. Con Flexbox y Grid Layout maquetamos la web de Instagram.  
+[Código](3-sesion/08-project-instajam) | [Art](art/1-instajam.png)
+#### Filosofía Material Design
+Introducción sonora a esta biblioteca de componentes Material Design que deja entre ver el uso de Flexbox y metodología BEM.  
+[Código](3-sesion/9-material-design-lite) | [Art](art/2-intro-mdl.png)
+#### GDG WonderCoders
+Proyecto inspirado en la web del [Google I/O 2015](https://events.google.com/io2015/) será la landing page oficial del GDG :bowtie:
